@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="backto-top">
+    <i class="bi bi-arrow-up-square-fill"></i>
+  </div>
+
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="/" class="logo">Tasty Food</a>
+
+      <div class="nav-menu" id="nav-menu">
+        <input id="checked" type="checkbox">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#menu" class="nav__link">Menu</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact Us</a>
+          </li>
+
+          <li class="nav__item nav__icon">
+            <i class="bi bi-brightness-high toggle-dark-mode"></i>
+          </li>
+        </ul>
+        <label for="checked" class="menu-toggle">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+      </div>
+
+    </nav>
+  </header>
+
+  <main class="main" id="main">
+    <section id="home" class="home">
+      <div class="home__container">
+        <div class="home__content content scroll-animation top-to-down">
+          <h1 class="home__title ">Tasty food</h1>
+          <h2 class="home__subtitle">Try the best food of the week</h2>
+          <a href="#" class="btn-menu btn ">View Menu</a>
+        </div>
+        <div class="home__box scroll-animation top-to-down delay-2">
+          <img src="./assets/home.png" alt="home" class="home__img">
+        </div>
+      </div>
+    </section>
+    <!--========== ABOUT ==========-->
+    <section id="about" class="about padding-similar">
+      <div class="about__container">
+        <div class="about__box  scroll-animation top-to-down">
+          <img src="./assets/about.jpg" alt="about" class="about__img">
+        </div>
+        <div class="about__content content  scroll-animation top-to-down delay-2">
+          <div class="about__subtitle subtitle-similar">
+            About Us
+          </div>
+          <h2 class="about__title title-similar">We cook the best <br>
+            tasty food</h2>
+          <p class="about__descr descr-similar">
+            We cook the best food in the entire city, with excellent customer service, the best meals and at the best
+            price, visit us.
+          </p>
+          <a href="#" class="btn about__btn">Explore History</a>
+        </div>
+      </div>
+    </section>
+
+    <!--========== services ==========-->
+
+    <section id="services" class="services padding-similar">
+      <div class="services__container">
+        <div class="services__content">
+          <div class="services__subtitle subtitle-similar">
+            Offering
+          </div>
+          <h2 class="services__title title-similar">
+            Our amazing services
+          </h2>
+        </div>
+        <ul class="services__list">
+          <li class="services__item scroll-animation top-to-down">
+            <i class="bi bi-egg-fried services__icon"></i>
+            <h3 class="services__title-item">
+              Excellent food
+            </h3>
+            <p class="services__descr descr-similar">
+              We offer our clients excellent quality services for many years, with the best and delicious food in the
+              city.
+            </p>
+          </li>
+          <li class="services__item scroll-animation top-to-down delay-2 ">
+            <i class="bi bi-cloud-haze services__icon"></i>
+            <h3 class="services__title-item">
+              Fast food
+            </h3>
+            <p class="services__descr descr-similar">
+              We offer our clients excellent quality services for many years,
+              with the best and delicious food in the city.
+            </p>
+          </li>
+          <li class="services__item scroll-animation top-to-down delay-4">
+            <i class="bi bi-truck services__icon"></i>
+            <h3 class="services__title-item">
+              Delivery
+            </h3>
+            <p class="services__descr descr-similar">
+
+              We offer our clients excellent quality services for many years,
+              with the best and delicious food in the city.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--========== MENU ==========-->
+    <section id="menu" class="menu padding-similar">
+      <div class="menu__container">
+        <div class="menu__content">
+          <div class="menu__subtitle subtitle-similar">
+            Special
+          </div>
+          <h2 class="menu__title title-similar">
+            Menu Of The Week
+          </h2>
+        </div>
+        <ul class="menu__list scroll-animation top-to-down
+        ">
+          <li class="menu__item  ">
+            <img src="./assets/plate1.png" alt="a" class="menu__img">
+            <h4 class="title-menu">Barbecue salad</h4>
+            <p class="menu__descr descr-similar">Delicious dish
+            </p>
+            <p class="menu__price">$22.00</p>
+            <div class="menu__btn btn">
+              <i class="bi bi-cart3"></i>
+            </div>
+          </li>
+          <li class="menu__item  ">
+            <img src="./assets/plate2.png" alt="a" class="menu__img">
+            <h4 class="title-menu">Salad with fish</h4>
+            <p class="menu__descr descr-similar">Delicious dish
+            </p>
+            <p class="menu__price">$12.00</p>
+            <div class="menu__btn btn">
+              <i class="bi bi-cart3"></i>
+            </div>
+          </li>
+          <li class="menu__item  ">
+            <img src="./assets/plate3.png" alt="a" class="menu__img">
+            <h4 class="title-menu">Salad with fish</h4>
+            <p class="menu__descr descr-similar">Delicious dish
+            </p>
+            <p class="menu__price">$25.00</p>
+            <div class="menu__btn btn">
+              <i class="bi bi-cart3"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--========== APP ==========-->
+    <section class="app padding-similar" id="app">
+      <div class="app__container">
+        <div class="app-box scroll-animation top-to-down">
+          <img src="./assets/movil-app.png" alt="a" class="app__img">
+        </div>
+        <div class="app__content scroll-animation top-to-down delay-2">
+          <div class="app__subtitle subtitle-similar">
+            App
+          </div>
+          <h2 class="app__title title-similar">
+            App is aviable
+          </h2>
+          <p class="app__descr descr-similar">
+            Find our application and download it, you can make reservations,
+            food orders, see your deliveries on the way and much more.
+          </p>
+          <div class="box">
+            <div class="app__apple app__store">
+              <img src="./assets/app1.png" alt="a">
+            </div>
+            <div class="app__google app__store">
+              <img src="./assets/app2.png" alt="a">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!--========== CONTACT US ==========-->
+    <section class="contact padding-similar" id="contact">
+      <div class="contact__container">
+        <div class="contact__content scroll-animation top-to-down">
+          <div class="contact__subtitle subtitle-similar">
+            Let's talk
+          </div>
+          <h2 class="contact__title title-similar">
+            Contact us
+          </h2>
+          <p class="contact__descr descr-similar">If you want to reserve a table in our restaurant, contact us and we
+            will attend you quickly, with our 24/7 chat service.</p>
+        </div>
+        <div class="contact__box scroll-animation top-to-down delay-2">
+          <a href="#" class="btn contact__btn">Contact us now</a>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer" id="footer">
+    <div class="footer__container">
+      <ul class="footer__list">
+        <li class="footer__item scroll-animation top-to-down">
+          <a href="#" class="footer__logo">Tasty Food</a>
+          <p class="descr-similar">Restaurant</p>
+          <div class="box-icon">
+            <a href="#" class="footer__icon-link">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#" class="footer__icon-link">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="footer__icon-link">
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+        </li>
+        <li class="footer__item scroll-animation top-to-down delay-2">
+          <h3 class="footer__title title-similar">Services</h3>
+          <ul class="footer__sub-list">
+            <li class="footer__sub-item">
+              <a href="#" class="footer__sub-link">
+                Delivery
+              </a>
+            </li>
+            <li class="footer__sub-item">
+              <a href="#" class="footer__sub-link">
+                Pricing
+              </a>
+            </li>
+            <li class="footer__sub-item">
+              <a href="#" class="footer__sub-link">
+                Fast food
+              </a>
+            </li>
+            <li class="footer__sub-item">
+              <a href="#" class="footer__sub-link">
+                Reserve your spot
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer__item scroll-animation top-to-down delay-4">
+          <h3 class="footer__title title-similar">Information
+          </h3>
+          <ul class="footer__sub-list">
+            <li class="footer__sub-item">
+              <a href="#" class="footer__sub-link">
+                Event
+
+              </a>
+            </li>
+            <li class="footer__sub-item">
+              <a href="#" class="footer__sub-link">
+                Contact us
+
+              </a>
+            </li>
+            <li class="footer__sub-item">
+              <a href="#" class="footer__sub-link">
+                Privacy policy
+
+            </li>
+            <li class="footer__sub-item">
+              <a href="#" class="footer__sub-link">
+                Terms of services
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer__item scroll-animation top-to-down delay-6">
+          <h3 class="footer__title title-similar">Services</h3>
+          <ul class="footer__sub-list">
+            <li class="footer__sub-item">
+              <a href="#" class="footer__sub-link">
+                Delivery
+              </a>
+            </li>
+            <li class="footer__sub-item">
+              <a href="#" class="footer__sub-link">
+                Pricing
+              </a>
+            </li>
+            <li class="footer__sub-item">
+              <a href="#" class="footer__sub-link">
+                Fast food
+              </a>
+            </li>
+            <li class="footer__sub-item">
+              <a href="#" class="footer__sub-link">
+                Reserve your spot
+              </a>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+
+      <div class="footer__copy">
+        © 2021 BuiHieu. All right reserved
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
